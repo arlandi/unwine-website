@@ -1,1 +1,120 @@
+@import 'reset';
 
+h1, h2, h3, h4, h5, h6, p, li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.main-menu {
+  lost-column: 1/1;
+  lost-utility: clearfix;
+
+  ul {
+    text-align: center;
+    padding: 0;
+    margin: 40px 0;
+    font-size: 1.2em;
+
+    li {
+      display: inline;
+      color: white;
+      text-transform: uppercase;
+      margin-left: 20px;
+    }
+  }
+}
+
+.home__section {
+  .wrapper {
+    lost-center: 1120;
+  }
+}
+
+.home__section-1 {
+  lost-column: 1/1;
+  lost-utility: clearfix;
+
+  height: 750px;
+  background: url(../img/bg.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+
+  .intro {
+    lost-utility: clearfix;
+
+    .left {
+      lost-column: 1/2;
+
+      color: white;
+      text-align: center;
+      font-size: 1em;
+      margin-top: 7em;
+
+      h2 {
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 3em;
+      }
+
+      p {
+        font-size: 2em;
+      }
+
+      button {
+        margin: 15px 0;
+      }
+
+      .android-button{
+        margin-left: 10px;
+      }
+    }
+
+    .right {
+      lost-column: 1/2;
+
+      img {
+        position: absolute;
+        bottom: 0;
+        transform: translateX(-18%);
+        opacity: 0.9;
+      }
+    }
+  }
+}
+
+.home__section-2 {
+  lost-column: 1/1;
+  lost-utility: clearfix;
+
+  background-color: #edeadf;
+  height: 500px;
+
+  .left {
+    width: 70%;
+  }
+
+  .right {
+    width: 30%;
+  }
+}
+
+.button {
+  display: inline-block;
+  border: 0;
+  color: white;
+  background-color: #b3002a;
+  font-size: 13px;
+  line-height: 1rem;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: 1.4rem;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 1.2em 2.2em;
+  outline: 0;
+}

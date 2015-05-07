@@ -1,5 +1,10 @@
-# Slim Boilerplate
+# Unwine App
 
-`php composer.phar install`
+Run these commands to build:
+`composer phar install`
 `npm install`
-`webpack --watch`
+`webpack`
+
+Resources:
+http://www.slimframework.com/
+http://webpack.github.io/
